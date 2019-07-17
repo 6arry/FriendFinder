@@ -19,7 +19,7 @@ module.exports = function(app){
 
         console.log(userScores);
 
-        Var totalDifference = 0;
+        var totalDifference = 0;
 
         for (var i=0; i<friends.length; i++){
             console.log(friends[i]);
@@ -28,9 +28,14 @@ module.exports = function(app){
             for (var j=0; friends[i].scores[j]; j++){
                 totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(friends[i].scores[j]));
                 if (totalDifference <= bestMatch.friendDifference){
-                    
+                    bestMatch.name = friends[i].name;
+                    bestMatch.photo = friends[i].photo;
+                    bestMatch.friendDifference = friends[i].totalDifference;
                 }
             }
         }
-    })
+        friends.push(userData);
+        
+        res.json(bestMatch);
+    });
 }
