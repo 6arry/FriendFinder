@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 var PORT = process.env.PORT || 3000;
  
 // create application/x-www-form-urlencoded parser
-app.use(bodyParser.urlencoded({ extended: true });
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // parse various different custom JSON types as JSON
 app.use(bodyParser.json({ type: 'application/*+json' }));
