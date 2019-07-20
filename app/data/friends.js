@@ -1,8 +1,8 @@
 var friends = [
     {
-    "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "name": "Ahmed",
+    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores": [
         "5",
         "1",
         "4",
@@ -16,9 +16,9 @@ var friends = [
         ]
     },
     {
-    "name":"Bulma",
-    "photo":"https://bit.ly/2xykrvj",
-    "scores":[
+    "name": "Bulma",
+    "photo": "https://bit.ly/2xykrvj",
+    "scores": [
         "3",
         "2",
         "6",
@@ -32,9 +32,9 @@ var friends = [
         ]
     },
     {
-    "name":"Vegeta",
-    "photo":"https://bit.ly/2NAF2d4",
-    "scores":[
+    "name": "Vegeta",
+    "photo": "https://bit.ly/2NAF2d4",
+    "scores": [
         "5",
         "1",
         "2",
@@ -48,9 +48,9 @@ var friends = [
         ]
     },
     {
-    "name":"Videl",
-    "photo":"https://bit.ly/2Jt6wfq",
-    "scores":[
+    "name": "Videl",
+    "photo": "https://bit.ly/2Jt6wfq",
+    "scores": [
         "3",
         "1",
         "2",
@@ -64,9 +64,9 @@ var friends = [
         ]
     },
     {
-    "name":"Gohan",
-    "photo":"https://bit.ly/30eNOPi",
-    "scores":[
+    "name": "Gohan",
+    "photo": "https://bit.ly/30eNOPi",
+    "scores": [
         "5",
         "1",
         "2",
@@ -80,9 +80,9 @@ var friends = [
         ]
     },
     {
-    "name":"Goku",
-    "photo":"https://bit.ly/2G0TVPC",
-    "scores":[
+    "name": "Goku",
+    "photo": "https://bit.ly/2G0TVPC",
+    "scores": [
         "5",
         "4",
         "3",
@@ -95,6 +95,6 @@ var friends = [
         "4"
         ]
     }
-];
+]
 
 module.exports = friends;
