@@ -25,7 +25,7 @@ module.exports = function(app){
             console.log(friends[i]);
             totalDifference=0;
 
-            for (var j=0; friends[i].scores[j]; j++){
+            for (var j=0; j<friends[i].scores[j]; j++){
                 totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(friends[i].scores[j]));
                 if (totalDifference <= bestMatch.friendDifference){
                     bestMatch.name = friends[i].name;
